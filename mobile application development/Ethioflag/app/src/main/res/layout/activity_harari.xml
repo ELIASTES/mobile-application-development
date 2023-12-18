@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#497C93"
+    android:orientation="vertical"
+    tools:context=".Harari">
+
+    <Button
+        android:id="@+id/x"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@drawable/x"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/harari"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ethioflag"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Introduction: \n The Harla people, an extinct Afroasiatic-speaking people native to Hararghe, are considered by most scholars to be the precursors to the Harari people.[4][5][6] The ancestors of the Hararis moved across the Bab-el-Mandeb, settling in the shores of Somalia and later expanding into the interior producing a Semitic-speaking population among Cushitic and non-Afroasiatic-speaking peoples in what would become Harar."
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Population:   276,000"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Tourist Destination:  \nHarar Jugol  "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Recommendation: \nHarar Jegol wall\nJoel Harar tour\nJumma Mosque"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/more"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/ethioflag"
+                android:gravity="center"
+                android:text="MORE"
+                android:textColor="#3D5AFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/primary"
+            android:icon="@drawable/play"
+            android:title="Primary" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/social"
+            android:icon="@drawable/people"
+            android:title="Social" />
+        <item
+            android:id="@+id/promotion"
+            android:icon="@drawable/contact"
+            android:title="Promotion" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/call"
+            android:title="Update" />
+        <item
+            android:id="@+id/forums"
+            android:icon="@drawable/nearby"
+            android:title="Forums" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/starred"
+            android:icon="@drawable/message"
+            android:title="Starred" />
+        <item
+            android:id="@+id/snoozed"
+            android:icon="@drawable/setting"
+            android:title="Snoozed" />
+        <item
+            android:id="@+id/important"
+            android:icon="@drawable/invite"
+            android:title="Important" />
+        <item
+            android:id="@+id/sent"
+            android:icon="@drawable/feature"
+            android:title="Sent" />
+
+    </group>
+
+
+</menu>

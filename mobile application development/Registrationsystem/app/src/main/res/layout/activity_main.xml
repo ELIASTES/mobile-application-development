@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1FFEB3B"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/uulogo"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="UNITY"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:hint="UNIVERSITY"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:hint="REGISTRATION"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:layout_margin="95dp"
+        android:text="NEXT"
+        android:textColor="#EEFFEB3B"
+        android:textSize="20dp"
+        android:background="#651FFF"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

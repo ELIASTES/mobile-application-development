@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:text="" />
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#29C2FF"
+                android:text="OCT" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:text="" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:text="2016"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:text="" />
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#29C2FF"
+                android:text="NOV" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+                android:text="MO"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="TU"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="WE"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="TH"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="FR"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="SA"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="SU"
+                android:background="@color/white"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="28"
+                android:textColor="#D6D1D1"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="29"
+                android:textColor="#D6D1D1"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="30"
+                android:textColor="#D6D1D1"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="2"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="3"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="4"
+                android:background="@color/white"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="5"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="7"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="8"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="9"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="10"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="11"
+                android:background="@color/white"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="12"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="13"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="14"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="15"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="16"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="17"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="18"
+                android:background="@color/white"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="19"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="20"
+                android:background="#3129C2FF"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="22"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="23"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="24"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="25"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="26"
+                android:background="@color/white"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="27"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="28"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="SU"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="29"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="30"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:textColor="#D6D1D1"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="2"
+                android:textColor="#D6D1D1"
+                android:background="@color/white"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</GridLayout>
